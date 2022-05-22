@@ -1,0 +1,51 @@
+H1 {
+    color:rgb(51, 5, 169);
+    margin-left:50px;
+    padding-left:30px
+}
+body{
+    background-color:blanchedalmond;
+}
+.header{
+    background-color:rgb(254, 214, 246);
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    background-color:rgb(192, 139, 242);
+}
+p,h2{
+    text-align: center;
+    color: darkmagenta;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+a:link{
+    color:rgb(51, 5, 169);
+    
+}
+a:visited{
+    color:rgb(51, 5, 169);
+}
+.item{
+    position: relative;
+}
+.item h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover h3{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.30;
+}
